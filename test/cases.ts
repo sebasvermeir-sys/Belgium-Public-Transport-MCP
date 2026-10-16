@@ -1,0 +1,27 @@
+// The tool calls used by both the chat-text snapshot test and the structured schema test.
+
+export const CASES: { name: string; tool: string; args: Record<string, unknown>; at: string }[] = [
+  { name: "find_stop midi", tool: "find_stop", args: { query: "midi" }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "find_stop trone stib", tool: "find_stop", args: { query: "Trône", operator: "stib" }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "find_stop zuid", tool: "find_stop", args: { query: "Gent Zuid", operator: "delijn" }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "departures sncb midi", tool: "departures", args: { stop: "Bruxelles-Midi", limit: 6 }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "departures sncb filter", tool: "departures", args: { stop: "midi", filter: { line: "IC" }, limit: 4 }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "arrivals sncb midi", tool: "arrivals", args: { stop: "midi", limit: 5 }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "departures stib trone", tool: "departures", args: { stop: "Trône" }, at: "2026-10-06T00:40:10+02:00" },
+  { name: "departures stib midi metro", tool: "departures", args: { stop: "midi", operator: "stib" }, at: "2026-10-06T00:40:10+02:00" },
+  { name: "departures delijn live", tool: "departures", args: { stop: "Gent Zuid" }, at: "2026-10-16T19:14:00+02:00" },
+  { name: "departures delijn timetable", tool: "departures", args: { stop: "Gent Zuid", time: "08:05", date: "2026-10-06", limit: 5 }, at: "2026-10-06T01:05:00+02:00" },
+  { name: "departures delijn to", tool: "departures", args: { stop: "Sint-Pietersstation", operator: "delijn", to: "Gent Zuid", time: "07:57", date: "2026-10-06", limit: 5 }, at: "2026-10-06T01:05:00+02:00" },
+  { name: "plan_journey gent midi", tool: "plan_journey", args: { from: "Gent-Sint-Pieters", to: "midi", time: "18:00", date: "2026-10-05" }, at: "2026-10-05T17:30:00+02:00" },
+  { name: "train_status", tool: "train_status", args: { train_id: "IC 1943" }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "disruptions sncb", tool: "disruptions", args: { limit: 3 }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "disruptions sncb station", tool: "disruptions", args: { station: "Gent-Sint-Pieters", limit: 3 }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "disruptions stib line", tool: "disruptions", args: { line: "71" }, at: "2026-10-06T00:40:00+02:00" },
+  { name: "disruptions stib stop", tool: "disruptions", args: { station: "Trône", limit: 4 }, at: "2026-10-06T00:40:00+02:00" },
+  { name: "disruptions delijn", tool: "disruptions", args: { station: "Gent Zuid" }, at: "2026-10-06T01:05:00+02:00" },
+  { name: "composition", tool: "composition", args: { train_id: "IC 1943" }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "commute to_gent", tool: "commute_check", args: { home: "Botanique", destination: "Gent Zuid", direction: "to_gent", time: "08:00", date: "2026-10-06" }, at: "2026-10-05T23:00:00+02:00" },
+  { name: "commute to_brussels", tool: "commute_check", args: { home: "Botanique", destination: "Gent Zuid", direction: "to_brussels", time: "17:30", date: "2026-10-06" }, at: "2026-10-05T23:00:00+02:00" },
+  { name: "error not found", tool: "find_stop", args: { query: "xqzzv", operator: "sncb" }, at: "2026-10-05T19:00:00+02:00" },
+  { name: "error ambiguous", tool: "departures", args: { stop: "Antwerpen", operator: "sncb" }, at: "2026-10-05T19:00:00+02:00" },
+];

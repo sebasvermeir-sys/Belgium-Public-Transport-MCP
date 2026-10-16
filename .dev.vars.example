@@ -1,0 +1,8 @@
+# Copy to .dev.vars for `npm run dev` (never commit .dev.vars).
+MCP_TOKEN=local-dev-token-change-me
+# Optional: a second token whose callers also get structuredContent (for apps/dashboards).
+APP_TOKEN=
+# Optional: STIB live data (Belgian Mobility open data portal).
+BELGIAN_MOBILITY_KEY=
+# Optional: De Lijn (portal.delijn.be, "Open Data Free").
+DELIJN_API_KEY=

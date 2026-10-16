@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "belgian-transit-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "vars": {
+    // iRail asks every client for a descriptive User-Agent with a contact. Put your own here.
+    "IRAIL_USER_AGENT": "BelgianTransitMCP/0.1 (+https://github.com/YOUR_GITHUB/YOUR_REPO; you@example.com)",
+    "INCLUDE_STRUCTURED": "0"
+  },
+  // Rebuild SNCB (:17) and STIB (:47) stop lists into KV every 6 h (src/index.ts scheduled).
+  "triggers": { "crons": ["17 */6 * * *", "47 */6 * * *"] },
+  // Create with `npx wrangler kv namespace create CACHE` and paste the id it prints.
+  "kv_namespaces": [{ "binding": "CACHE", "id": "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }]
+}

@@ -1,0 +1,205 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`chat text output is unchanged > arrivals sncb midi 1`] = `
+"Brussel-Zuid/Bruxelles-Midi · arrivals (5 of 44)
+22:20 IC 2243 from Brussels Airport - Zaventem · pl. 13
+22:22 IC 1743 from Tongeren · pl. 19
+22:22 (+5) S1 1993 from Antwerp-Central · pl. 21
+22:26 (+3) IC 1543 from Hasselt · pl. 8
+22:26 S2 3671 from Braine-le-Comte · pl. 18"
+`;
+
+exports[`chat text output is unchanged > commute to_brussels 1`] = `
+"Commute · Gent Zuid → Botanique · 2026-10-06 · leaving from 17:30 · 3 plans
+Plan 1 · arrive ~18:57
+  17:35 leave for Gent Zuid (~5 min walk)
+  17:40 B70 (dir. Zwijnaarde Technologiepark) → Gent Sint-Pietersstation 17:54
+  18:00 (+3) IC 1517 → Hasselt · Gent-Sint-Pieters pl. 11 → Midi 18:28 (+2) pl. 4
+  18:36 M6/M2 Midi → Botanique (~13 min) · arrive ~18:57
+Plan 2 · arrive ~19:37
+  18:06 leave for Gent Zuid (~5 min walk)
+  18:11 T1 (dir. Sint-Denijs-Westrem Flanders Expo) → Gent Sint-Pietersstation 18:29
+  18:25 (+9) IC 517 → Eupen · Gent-Sint-Pieters pl. 10 → Midi 18:53 (+17) pl. 7
+  19:16 M6/M2 Midi → Botanique (~13 min) · arrive ~19:37
+Plan 3 · arrive ~19:43
+  18:11 leave for Gent Zuid (~5 min walk)
+  18:16 B77 (dir. Deinze Kerkhof) → Gent Sint-Pietersstation 18:30
+  18:41 IC 2817 → Liège-Guillemins · Gent-Sint-Pieters pl. 10 → Midi 19:09 (+7) pl. 8
+  19:22 M6/M2 Midi → Botanique (~13 min) · arrive ~19:43
+⚠ STIB M6: T7 62 interrupted btw HEYSEL and SAINT-LAMBERT Take T19 to STUYVENBERGH then M6 to HEYSEL/HEIZEL."
+`;
+
+exports[`chat text output is unchanged > commute to_gent 1`] = `
+"Commute · Botanique → Gent Zuid · 2026-10-06 · leaving from 08:00 · 3 plans
+Plan 1 · arrive ~09:20
+  08:05 leave for Botanique metro (~5 min walk)
+  by 08:10 M2/M6 Botanique → Midi (~13 min, runs every few min)
+  08:29 IC 1530 → Knokke · Midi pl. 11 → Gent-Sint-Pieters 08:57 pl. 12
+  09:02 B71 (dir. Oostakker Dorp) → Gent Zuid 09:15 · walk 5 min
+Plan 2 · arrive ~09:33
+  08:13 leave for Botanique metro (~5 min walk)
+  by 08:18 M2/M6 Botanique → Midi (~13 min, runs every few min)
+  08:37 IC 430 → Kortrijk · Midi pl. 10 → Gent-Sint-Pieters 09:05 pl. 12
+  09:15 B76 (dir. Wachtebeke Warande) → Gent Zuid 09:28 · walk 5 min
+Plan 3 · arrive ~09:50
+  08:35 leave for Botanique metro (~5 min walk)
+  by 08:40 M2/M6 Botanique → Midi (~13 min, runs every few min)
+  08:59 IC 1531 → Knokke · Midi pl. 11 → Gent-Sint-Pieters 09:27 pl. 12
+  09:32 B78 (dir. Lokeren Station) → Gent Zuid 09:45 · walk 5 min
+⚠ STIB M6: T7 62 interrupted btw HEYSEL and SAINT-LAMBERT Take T19 to STUYVENBERGH then M6 to HEYSEL/HEIZEL."
+`;
+
+exports[`chat text output is unchanged > composition 1`] = `"IC1943 Brussels Airport - Zaventem → Tournai: 8 cars (M6 BXCT, M6 BU ×3, M6 AU, M6 BDU ×2, HLE18) · 1st class in car 4 · seats 1st 124 / 2nd 758 · toilets in 7 cars · bikes in car 5, 6"`;
+
+exports[`chat text output is unchanged > departures delijn live 1`] = `
+"Gent Zuid · De Lijn live · now 19:14 (10 of 35)
+B5a → Wondelgem Industrieweg · 19:05 (+9), 19:21 (+3), 19:29 (+2) · now
+T1 → Sint-Denijs-Westrem Flanders Expo · 19:14, 19:21, 19:26 · now
+B76 → Wachtebeke Warande · 18:30 (+46), 19:28 (+1) · in 2 min
+B77 → Deinze Kerkhof · 19:16 (+1) · in 3 min
+B5b → Wondelgem Station · 19:16 · in 2 min
+B16 → Gent Zuid · 19:19 (-2) · in 3 min
+B33 → Destelbergen Damvalleistraat · 19:01 (+17), 19:29 · in 4 min
+B41 → Oudenaarde Tacambaro · 19:17, 20:17 · in 3 min
+B5a → Nieuw Gent · 19:22 (-3), 19:29 (+2) · in 5 min
+B55 → Gent Sint-Pietersstation · 19:18 (+2) · in 6 min"
+`;
+
+exports[`chat text output is unchanged > departures delijn timetable 1`] = `
+"Gent Zuid · De Lijn timetable 2026-10-06 from 08:05 (5 of 52)
+B6 → P+R Muide · 08:03, 08:23, 08:43
+T1 → Sint-Denijs-Westrem Flanders Expo · 08:04, 08:09, 08:14
+B55 → Gent Sint-Pietersstation · 08:04, 08:13, 08:49
+T2 → Gent Van Beverenplein · 08:05, 08:12, 08:19
+B5a → Wondelgem Industrieweg · 08:05, 08:13, 08:18"
+`;
+
+exports[`chat text output is unchanged > departures delijn to 1`] = `
+"Gent Sint-Pietersstation · De Lijn timetable 2026-10-06 from 07:57 · to Gent Zuid (5 of 274 trips)
+07:57 T1 (dir. Gentbrugge Stelplaats) · arr 08:16
+08:00 B77 (dir. Beervelde Tollekenswegel) · arr 08:15
+08:05 B55 (dir. Zelzate Busstation) · arr 08:20
+08:07 T1 (dir. Gentbrugge Stelplaats) · arr 08:26
+08:08 B71 (dir. Oostakker Dorp) · arr 08:23"
+`;
+
+exports[`chat text output is unchanged > departures sncb filter 1`] = `
+"Brussel-Zuid/Bruxelles-Midi · departures (4 of 26)
+22:14 IC 1943 → Tournai · pl. 19
+22:15 IC 2043 → Charleroi-Central · pl. 21
+22:17 IC 3220 → Dendermonde · pl. 8
+22:23 IC 2319 → Brussels Airport - Zaventem · pl. 15"
+`;
+
+exports[`chat text output is unchanged > departures sncb midi 1`] = `
+"Brussel-Zuid/Bruxelles-Midi · departures (6 of 33)
+22:14 IC 1943 → Tournai · pl. 19
+22:15 IC 2043 → Charleroi-Central · pl. 21
+22:16 (+3) S8 6593 → Zottegem · pl. 16
+22:17 IC 3220 → Dendermonde · pl. 8
+22:23 IC 2319 → Brussels Airport - Zaventem · pl. 15
+22:24 (+3) IC 2243 → Ghent-Sint-Pieters · pl. 13"
+`;
+
+exports[`chat text output is unchanged > departures stib midi metro 1`] = `
+"Gare du Midi / Zuidstation · STIB live · now 00:40 (10 of 10)
+M2 → Heysel · now (last)
+B48 → Avenue du Roi · 1 min
+B96 → Trinite · 3 min (last)
+T81 → Neerpede · 3, 17 min
+B48 → Anneessens · 3 min
+B49 → Digue du Canal · 6, 26 min
+T82 → Dieweg · 7 min (last)
+B48 → Porte de Hal · 7 min
+T82 → Quatre Vents · 10, 26 min
+B48 → Decroly · 10 min
+No live departures now (service ended or not running): B73 M6 B50 T51 B78"
+`;
+
+exports[`chat text output is unchanged > departures stib trone 1`] = `
+"Trone / Troon · STIB live · now 00:40 (4 of 4)
+M6 → Elisabeth · 3 min (last)
+B71 → Delta · 3, 15 min
+B12 → Brussels City · 4, 21 min
+B21 → Bordet Station · 10, 11, 30 min
+No live departures now (service ended or not running): M2 B34 B38 B54 B64 B80 B95"
+`;
+
+exports[`chat text output is unchanged > disruptions delijn 1`] = `
+"1 of 1 disruptions for Gent Zuid (incidents first)
+[incident] B40 · Unexpected disruption (2026-09-11 18:14): No tram T1 or T3. Going to Ledeberg or Moscou? Take bus 40, 41, 42, or 401."
+`;
+
+exports[`chat text output is unchanged > disruptions sncb 1`] = `
+"3 of 48 disruptions (incidents first)
+[planned] Jette - Brux.-Midi/Brus.-Zuid (2026-10-05 12:03): During the weekend of 10-11/10 Infrabel is working on the track. The route and departure times of the S4 trains Alost / Aalst - Denderleeuw - Brux./Brus.-Luxemb. change. The route and departure times of the S10 trains…
+[planned] Tongres / Tongeren - Liers (2026-10-02 15:37): On Thursday 08/10 Infrabel is working on the track. An SNCB-NMBS bus replaces some S41 trains Hasselt - Liège-Guillemins / Luik-Guillemins - Verviers-Central / Verviers-Centraal between Tongres / Tongeren and Liers. T…
+[planned] Bressoux - Visé / Wezet (2026-10-01 14:18): On Tuesday 27/10 Infrabel is working on the track. The departure times of some S44 trains Landen - Liège-Guillemins / Luik-Guillemins - Visé / Wezet change. The travel planner takes these changes into account."
+`;
+
+exports[`chat text output is unchanged > disruptions sncb station 1`] = `
+"3 of 6 disruptions for Gent-Sint-Pieters (incidents first)
+[planned] Schellebelle - Termonde / Dendermonde (2026-10-01 12:47): During the weekends, from 17/10 to 15/11 Infrabel is working on the track. An SNCB-NMBS bus replaces all trains between Schellebelle and Termonde / Dendermonde. The departure times of the L trains Zeebrugge-Strand - G…
+[planned] Bruges / Brugge (2026-10-01 09:35): Every day, from 31/10 to 6/11 Infrabel is working on the track. The route of most trains running between Bruges / Brugge and Kortrijk/Gand-Saint-Pierre / Gent-Sint-Pieters changes. During the weekend and on Monday, an…
+[planned] Gand-Saint-Pierre / Gent-Sint-Pieters - Renaix / Ronse (2026-09-29 14:28): Every day, from 31/10 to 8/11 Infrabel is working on the track. From 31/10 to 3/11 : An SNCB-NMBS bus replaces all trains between Gand-Saint-Pierre / Gent-Sint-Pieters and Renaix / Ronse. From 4/11 to 8/11 : An SNCB-N…"
+`;
+
+exports[`chat text output is unchanged > disruptions stib line 1`] = `
+"8 of 8 disruptions for B71 (incidents first)
+[incident] B38 B71: Credence letters. 7 Oct, 9.30 am to 1pm, bus 38 71 diverted. Bus 71 at CENTRAAL STATION (stop bus 29 to DE BROUCKERE).
+[incident] B38 B71: Credence letters. 7 Oct, 9.30 am to 1pm, bus 38 71 diverted. Bus 38 71 at CENTRAAL STATION (B38 at stop bus 71 DELTA).
+[incident] B71: Credence letters. 7 Oct, 9.30 am to 1pm, bus 71 diverted. Bus 71 at stop of bus 29 to DE BROUCKERE.
+[incident] B38 B71: Credence letters. 7 Oct, 9.30 am to 1pm, bus 38 71 diverted. Bus 38 71 at the next stop TROON/TRONE.
+[incident] B71: Handover credence letters. On 7 Oct from 9.30 am to 1pm, bus 71 diverted between TROON/ TRONE-CENTRAAL STATION.
+[incident] B71: Credence letters. On 7 Oct from 9.30 am to 1pm, bus 71 diverted between CENTRAAL STATION and TROON/TRONE.
+[planned] B89 B29 B71: Works. STOP NOT SERVED. To go to DE BROUCKERE, take metro lines 1 or 5. Stop B89: bd Impératrice / car park Gd Place.
+[planned] B38 B71: Works. Bus 38 diverted. Take bus 38 at the next stop, ROYALE / KONING."
+`;
+
+exports[`chat text output is unchanged > disruptions stib stop 1`] = `
+"4 of 6 disruptions for Trone / Troon (incidents first)
+[incident] B78 B48 B37 B49 +9: T4 interrupted between PORTE DE HAL and BERKENDAEL. Take the T- bus btw GARE DU MIDI and BERKENDAEL or B48.
+[incident] B71: Handover credence letters. On 7 Oct from 9.30 am to 1pm, bus 71 diverted between TROON/ TRONE-CENTRAAL STATION.
+[incident] M2 M6: Interruption tram 4 10. Tram 4 STALLE (P) at PTE DE HAL,tram 4 10 GARE DU NORD/HOPITAL MILITAIRE at GARE DU MIDI.
+[planned] B54: Works.Until end of 2026, bus 54 diverted between BAILLI and MA CAMPAGNE via JANSON. Info: stib- mivb.be or in the app."
+`;
+
+exports[`chat text output is unchanged > error ambiguous 1`] = `"[error] Stop ambiguous: "Antwerpen" could be Antwerpen-Berchem, Antwerpen-Centraal, Antwerpen-Oost, Antwerpen-Haven. Call again with the exact name or id, e.g. "Antwerpen-Berchem"."`;
+
+exports[`chat text output is unchanged > error not found 1`] = `"[error] No stop matches "xqzzv". Try another spelling or the FR/NL name."`;
+
+exports[`chat text output is unchanged > find_stop midi 1`] = `
+"Brussel-Zuid/Bruxelles-Midi (Brussels-South/Brussels-Midi / Brussel-Zuid / Bruxelles-Midi) · sncb · BE.NMBS.008814001
+Vorst-Zuid/Forest-Midi (Vorst-Zuid / Forest-Midi) · sncb · BE.NMBS.008814373
+Gare du Midi / Zuidstation · stib · M2 M6 B48 B49 B50 T51 B73 B78 T81 T81 T82 B96 · stib:GARE DU MIDI"
+`;
+
+exports[`chat text output is unchanged > find_stop trone stib 1`] = `"Trone / Troon · stib · M2 M6 B12 B34 B38 B54 B64 B71 B80 B95 · stib:TRONE"`;
+
+exports[`chat text output is unchanged > find_stop zuid 1`] = `"Gent Zuid · delijn · 10 stops · delijn:2_200065_2_204810_2_201065_2_201269_2_200269_2_200083_2_203928_2_201083_2_201393_2_200393"`;
+
+exports[`chat text output is unchanged > plan_journey gent midi 1`] = `
+"Gent-Sint-Pieters → Brussel-Zuid/Bruxelles-Midi · 4 options
+1) 18:00 (+3) → 18:28 (+2) · 27 min · direct
+   18:00 (+3) Gent-Sint-Pieters pl. 11 · IC 1517 → Hasselt · arr 18:28 (+2) Brussel-Zuid/Bruxelles-Midi pl. 4
+2) 18:25 (+9) → 18:53 (+17) · 36 min · direct
+   18:25 (+9) Gent-Sint-Pieters pl. 10 · IC 517 → Eupen · arr 18:53 (+17) Brussel-Zuid/Bruxelles-Midi pl. 7
+3) 18:41 → 19:09 (+7) · 35 min · direct
+   18:41 Gent-Sint-Pieters pl. 10 · IC 2817 → Liège-Guillemins · arr 19:09 (+7) Brussel-Zuid/Bruxelles-Midi pl. 8 (changed)
+4) 18:55 (+6) → 19:24 (+6) · 29 min · direct
+   18:55 (+6) Gent-Sint-Pieters pl. 9 · IC 418 → Leuven · arr 19:24 (+6) Brussel-Zuid/Bruxelles-Midi pl. 8"
+`;
+
+exports[`chat text output is unchanged > train_status 1`] = `
+"IC 1943 · Brussels Airport - Zaventem → Tournai · 2026-10-05 · now on time
+✓ 21:43 (+1) Brussels Airport - Zaventem · pl. 2
+✓ 22:01 (+3) Brussel-Noord/Bruxelles-Nord · pl. 5
+✓ 22:06 (+4) Brussel-Centraal/Bruxelles-Central · pl. 4
+✓ 22:14 (+2) Brussel-Zuid/Bruxelles-Midi · pl. 19
+  22:25 Halle · pl. 3
+  22:37 Enghien · pl. 3
+  22:44 Silly · pl. 2
+  22:55 Ath · pl. 2
+  23:04 Leuze · pl. 3
+  23:16 Tournai · pl. 5"
+`;
